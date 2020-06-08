@@ -1,5 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./usePageLeave/usePageLeave";
+import App from "./useNetwork/useNetwork";
 
 ReactDOM.render(<App />, document.getElementById("root"));
