@@ -22,9 +22,12 @@ const useNotification = (title, options) => {
 };
 
 const App = () => {
-  const treiggerNotification = useNotification("Can I steal your Kimchi?", {
-    body: "I love Kimchi don't you",
-  });
+  const treiggerNotification = useNotification(
+    "새로운 여성을 만나보시겠어요?",
+    {
+      body: "그녀들이 기다리고있어요",
+    }
+  );
   return (
     <div className="App">
       <button onClick={treiggerNotification}>Hello</button>
